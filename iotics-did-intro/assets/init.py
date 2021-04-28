@@ -1,0 +1,1 @@
+from iotic.lib.identity import Document, Identifier
