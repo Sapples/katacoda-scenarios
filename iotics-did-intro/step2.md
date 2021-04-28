@@ -8,8 +8,10 @@ To authenticate to the Iotics API an Agent is needed.  Agents always work in a U
 
 The Agent must ask for permission to work on the User's behalf.  This is done with a cryptographic signature of the User's ID with the Agent's private key.
 
-`proof=$(make_agent_proof($user_id))`
+`proof=$(make_agent_proof $user_id)`{{execute}}
 
 To grant permission the User must update their Identity Document with a Delegation of Authentication including the Proof.
 
-`user_delegate_to_agent($proof)`
+`$(user_delegate_to_agent $proof)`{{execute}}
+
+
