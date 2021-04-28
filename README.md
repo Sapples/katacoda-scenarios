@@ -20,10 +20,12 @@ This runs the `init.py` (a scenario asset) which installs dependencies in Python
 
 ### Scenario Dependencies - Assets
 
-We would prefer to provide a pre-built Docker image with all the dependencies.
+We would prefer to provide a pre-built Docker image ("Katacoda environment") with all the dependencies in it.
 
-But it's not currently possible to use custom environment images for Katacoda scenarios.
-See <https://www.katacoda.community/environments.html>
+But custom Katacoda environments are only available with Katacoda subscription.
+
+* <https://www.katacoda.community/environments.html>
+* <https://github.com/katacoda/scenario-examples/tree/main/environments>
 
 Therefore the dependencies are configured via [assets](https://www.katacoda.community/customizing-environment.html#uploading-files).
 
