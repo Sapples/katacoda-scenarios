@@ -1,15 +1,15 @@
 {
-  "title": "Introduction to Decentralised Identity",
-  "description": "...",
+  "title": "Introduction to Iotics Decentralised Identity in Python",
+  "description": "",
   "difficulty": "Beginner",
   "time": "15 min",
   "details": {
-    "courseData": "install.sh",
+    "courseData": "set-did-resolver.sh",
     "steps": [
       {
         "title": "Step 1",
         "text": "step1.md",
-        "code": "run-python.sh"
+        "code": "install-sdk.sh"
       },
       {
         "title": "Step 2",
