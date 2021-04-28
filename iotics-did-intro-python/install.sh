@@ -1,3 +1,3 @@
 #!/bin/bash
 
-pip3 install -f /tmp iotic.lib.identity
+pip install -f /tmp iotic.lib.identity
