@@ -18,7 +18,7 @@ create_user_id() {
 }
 
 echo -e "- \e[33mcreate_agent_id\e[0m"
-create_agent() {
+create_agent_id() {
     did="did:iotics:iotRoq4eG7sukFV3M3jSYocENMkoatynfNeW"
     echo -e "\e[96mCreated Agent:\e[0m $did" >&2
     echo $did

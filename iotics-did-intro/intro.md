@@ -24,7 +24,7 @@ At the end of this scenario you will understand the basics of IOTICS Identity ma
 
 You will have an agent which you will be able to use to securely run you applications on Iotics.
 
-![User-Agent-Twin](./assets/user-agent-twin.svg)
+![User-Agent-Twin](./assets/user-agent-twin.png)
 
 You can only follow the arrow in one direction.
 
