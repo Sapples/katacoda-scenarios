@@ -1,17 +1,19 @@
 # Iotics User DID Creation
 
-Make a random secret seed of identity.  This will be your secret and you should keep it safe.
+Make a random secret seed of identity.
 
-`user_seed = Identifier.new_seed(); print(user_seed)`{{execute}}
+All your identities will be derived from this.
 
-We'll protect the secret by stretching it into an intermediate
+This will be your secret and you should keep it safe.
 
-`user_intermediate = Identifier.seed_to_master(user_seed)`{{execute}}
+`user_seed=$(create_seed)`{{execute}}
 
-Now we can derive private keys given the intermediate. TODO: explain doc type and name
+`echo $user_seed`{{execute}}
 
-`user_private = Identifier.new_private_hex_from_path_str(user_intermediate, Identifier.DIDType.USER, '#katacoda')`{{execute}}
+Using your seed, you can create one or more user identities.
 
-Now we can construct the DID identity
+`user_id=$(create_user_id)`{{execute}}
 
-`user_doc = Document.new_did_document(Identifier.DIDType.USER, Identifier.private_hex_to_ECDSA(user_private), '#katacoda'); print(user_doc.id)`{{execute}}
+`echo $user_id`{{execute}}
+
+Great job!
