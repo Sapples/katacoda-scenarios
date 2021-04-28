@@ -10,7 +10,7 @@ We'll protect the secret by stretching it into an intermediate
 
 Now we can derive private keys given the intermediate. TODO: explain doc type and name
 
-`user_private = Identifier.new_private_hex_from_path_str(user_intermediate, Identifier.DIDType.USER, )`{{execute}}
+`user_private = Identifier.new_private_hex_from_path_str(user_intermediate, Identifier.DIDType.USER, '#katacoda')`{{execute}}
 
 Now we can construct the DID identity
 
