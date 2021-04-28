@@ -14,4 +14,4 @@ Now we can derive private keys given the intermediate. TODO: explain doc type an
 
 Now we can construct the DID identity
 
-`user_doc = Document.new_did_document(Identifier.DIDType.USER, Identifier.private_hex_to_ECDSA(user_private), '#katacoda'); print(user_doc.id)`{{execute}
+`user_doc = Document.new_did_document(Identifier.DIDType.USER, Identifier.private_hex_to_ECDSA(user_private), '#katacoda'); print(user_doc.id)`{{execute}}
