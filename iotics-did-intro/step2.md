@@ -12,6 +12,5 @@ The Agent must ask for permission to work on the User's behalf.  This is done wi
 
 To grant permission the User must update their Identity Document with a Delegation of Authentication including the Proof.
 
-`$(user_delegate_to_agent $proof)`{{execute}}
-
+`user_delegate_to_agent $proof`{{execute}}
 
