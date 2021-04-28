@@ -1,10 +1,9 @@
 {
-  "title": "Introduction to Iotics Decentralised Identity in Python",
-  "description": "",
+  "title": "Intro to DID (Python)",
+  "description": "Introduction to Iotics Decentralised Identity in Python",
   "difficulty": "Beginner",
-  "time": "15 min",
+  "time": "10 min",
   "details": {
-    "courseData": "set-did-resolver.sh",
     "steps": [
       {
         "title": "Step 1",
