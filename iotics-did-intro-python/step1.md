@@ -1,9 +1,18 @@
-# User DID Creation
+# Iotics User DID Creation - Python
 
-TBD - some text here
+Make a random secret seed of identity
 
-`user_seed = Identifier.new_seed()`{{execute}}
+`user_seed = Identifier.new_seed(); print(user_seed)`{{execute}}
 
-TBD - some text here
+We'll protect the secret by stretching it into an intermediate
 
-`print(f'export USER_SEED="{user_seed}"')`{{execute}}
+`user_intermediate = Identifier.seed_to_master(user_seed)`{{execute}}
+
+Now we can derive private keys given the intermediate. TODO: explain doc type and name
+
+`user_private = Identifier.new_private_hex_from_path_str(user_intermediate, Identifier.DIDType.USER, )`
+
+Now we can construct the DID identity
+
+`user_doc = Document.new_did_document(Identifier.DIDType.USER, Identifier.private_hex_to_ECDSA(user_private), '#katacoda')`
+
