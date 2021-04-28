@@ -1,9 +1,9 @@
 # Lookup ID on the DID resolver
 
-TBD
+Now we'll fetch our published identity
 
 `discovered_doc = Resolver.discover(user_doc.id)`{{execute}}
 
-TBD
+And pretty print the contents
 
 `pprint(discovered_doc.__dict__())`{{execute}}

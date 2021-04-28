@@ -31,7 +31,7 @@
           {"file": "iotic.lib.identity-0.2.post30.tar.gz", "target": "/tmp/"},
           {"file": "init.py", "target": "/tmp/"}
       ]
-  }
+    }
   },
   "environment": {
     "uilayout": "terminal"
